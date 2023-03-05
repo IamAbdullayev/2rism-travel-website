@@ -1,0 +1,20 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+// Base
+@import "base/reset";
+@import "base/base";
+
+// Blocks
+@import "blocks/header";
+@import "blocks/intro";
+@import "blocks/card";
+@import "blocks/popular";
+@import "blocks/hotels";
+@import "blocks/rate";
+@import "blocks/tips";
+@import "blocks/activities";
+@import "blocks/aboutus";
+@import "blocks/footer";
+@import "blocks/media-query";
+@import "blocks/burger-menu";

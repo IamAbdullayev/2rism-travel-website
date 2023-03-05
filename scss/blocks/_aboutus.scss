@@ -1,0 +1,47 @@
+.aboutus {
+	padding-top: 60px;
+	padding-bottom: 120px;
+
+	display: flex;
+	align-items: center;
+	column-gap: 32px;
+
+	&._container {
+		max-width: 1208px;
+	}
+
+	&__content {
+	}
+
+	&__title {
+		font-weight: 600;
+		font-size: 32px;
+		line-height: 1.5;
+		color: #161414;
+	}
+
+	&__text {
+		padding: 32px 0;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 2;
+		color: #5B5B5B;
+	}
+
+	&__buttont {
+		width: 133px;
+		height: 44px;
+	}
+
+	&__media {
+		flex: 0 0 556px;
+		height: 488px;
+		border-radius: 24px;
+		overflow: hidden;
+	}
+	&__image {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}

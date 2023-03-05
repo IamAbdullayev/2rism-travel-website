@@ -1,0 +1,553 @@
+@media (max-width: 1200px) {
+	// Header
+	.menu {
+			&__list {
+				column-gap: 34px;
+			}
+	}
+
+
+
+	// Main
+
+	// _card
+	.title-block {
+		margin-bottom: 32px;
+	}
+
+	//intro
+	.form {
+	
+		&__input {
+			align-items: stretch;
+	
+			flex-grow: 1;
+			max-width: 255px;
+			min-width: auto;
+			height: 100%;
+			padding: 8px;
+			&:first-child {
+				min-width: auto;
+				max-width: 299px;
+			}
+		}
+	
+		&__input-icon {
+			margin: 0 8px 0 0;
+			width: 18px;
+			height: 18px;
+		}
+	
+		&__input-content {
+			flex: 1 1 auto;
+			span {
+				font-size: 14px;
+			}
+		}
+	
+		 &__label {
+			font-size: 12px;
+		 }
+	
+	}
+
+
+
+
+	// Popular
+	.popular {
+		padding-top: 60px;
+		padding-bottom: 30px;
+	
+		&__cards {
+			flex-wrap: wrap;
+			gap: 18px;
+		}
+	
+		&__card {
+			flex: 1 1 32%;
+		}
+	
+		.cards__item-media {
+			height: 180px;
+		}
+	}
+
+
+	// Hotels
+	.hotel {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	
+		&__cards {
+			flex-wrap: wrap;
+			gap: 18px;
+		}
+	
+		&__card {
+			flex: 1 1 49%;
+		}
+	}
+
+
+
+	// Tips
+	.tips {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	
+		&__cards {
+			column-gap: 18px;
+		}
+	
+		&__card {
+			flex-direction: column;
+		}
+	
+		.cards {
+			&__item-media {
+				flex: 1 0 320px;
+				height: auto;
+			}
+	
+			&__item-content {
+				height: 100%;
+				margin-left: 0;
+				padding: 15px 0 0 0;
+				row-gap: 10px;
+			}
+	
+			&__item-body {
+				flex: 1 1 auto;
+				padding: 0;
+			}
+		}
+	}
+
+
+
+	// Activities
+	.activities {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	
+		&__cards {
+			flex-wrap: wrap;
+			gap: 18px;
+		}
+	
+		&__card {
+			flex: 1 1 49%;
+		}
+	
+	
+		.cards {
+			&__item-content {
+				padding: 10px 0 0 0;
+			}
+		}
+	}
+	
+
+	// Aboutus
+	.aboutus {
+		padding-top: 30px;
+		padding-bottom: 60px;
+
+		column-gap: 18px;
+	
+		&__text {
+			padding: 18px 0;
+		}
+		&__media {
+			flex: 0 0 450px;
+			height: 395px;
+		}
+	}
+
+
+	// Footer
+	.footer {
+		&__iner {
+			column-gap: 50px;
+		}
+	
+		&__nav {
+			column-gap: 40px;
+		}
+	
+		&__email {
+			column-gap: 8px;
+		}
+	}
+	
+	.socials {
+		column-gap: 25px;
+	}
+
+}
+
+
+
+
+
+@media (max-width: 991.98px) {
+	// Header
+	.header {
+		padding-top: 24px;
+		padding-bottom: 24px;
+	}
+	
+	.logo {
+		height: 24px;
+			&__img {
+				max-height: 100%;
+			}
+	}
+	
+	.menu {
+		&__list {
+			column-gap: 20px;
+		}
+
+		&__list-link {
+			font-size: 12px;
+		}
+	}
+	
+	.user {
+		column-gap: 4px;
+	
+		&__greeting {
+			margin-bottom: 4px;
+			font-size: 12px;
+		}
+
+		&__name {
+			font-size: 12px;
+		}
+
+		&__img {
+			width: 36px;
+			height: 36px;
+		}
+	}
+
+
+	// Main
+
+	// intro
+	.form {
+		flex-wrap: wrap;
+		max-width: 570px;
+		row-gap: 10px;
+	
+		&__input {
+			align-items: center;
+			max-width: 50%;
+			min-width: 50%;
+			height: auto;
+			&:first-child {
+				min-width: 50%;
+				max-width: 50%;
+			}
+		}
+	
+	}
+
+	.button-search {
+		width: 100%;
+	}
+
+	
+	// Aboutus
+	.aboutus {
+		row-gap: 18px;
+		flex-direction: column;
+		&__text {
+			padding: 9px 0;
+		}
+		&__media {
+			flex: 1 1 100%;
+			height: 395px;
+		}
+	}
+	
+
+
+
+	// Footer
+	.footer {
+		padding-top: 60px;
+		padding-bottom: 60px;
+
+		&__iner {
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		&__socials {
+			display: flex;
+			flex: 0 1 100%;
+			column-gap: 36px;
+		}
+
+		&__logo {
+			flex-shrink: 0;
+		}
+
+		&__content {
+			padding: 0;
+			text-align: center;
+		}
+
+		&__nav {
+			display: flex;
+			flex-grow: 1;
+			column-gap: 36px;
+
+			padding: 50px 0;
+		}
+
+		&__menu {
+			display: flex;
+			flex-direction: column;
+			flex-grow: 1;
+			align-items: center;
+
+		}
+
+		&__menu-list {
+			align-items: center;
+			row-gap: 5px;
+			padding-top: 10px;
+		}
+
+		&__form {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex: 0 1 100%;
+			column-gap: 20px;
+		}
+
+		&__form-title {
+			flex: 0 1 40%;
+			font-size: 18px;
+		}
+
+		&__email {
+			padding-top: 0;
+		}
+
+		&__email-submit {
+			width: 72px;
+			height: 72px;
+		}
+
+		.socials {
+			column-gap: 15px;
+
+			&__item {
+				width: 32px;
+				height: 32px;
+			}
+
+		}
+
+	}
+
+
+
+
+}
+
+
+
+
+@media (max-width: 767.98px) {
+	
+
+	// Main
+
+	// Intro
+	.intro {
+		
+		&__title {
+			font-size: 36px;
+			margin-bottom: 24px;
+		}
+	
+		&__button {
+			column-gap: 10px;
+			padding: 20px;
+			font-size: 16px;
+		}
+	}
+
+
+	// _card
+	.title-block {
+		margin-bottom: 32px;
+		font-size: 24px;
+	}
+
+	.view-all {
+		position: relative;
+	
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	
+		padding: 0 25px 0 5px;
+		font-size: 12px;
+	
+		&::after {
+			right: 5px;
+		}
+	}
+
+	// Tips
+	.tips {
+		&__cards {
+			flex-wrap: wrap;
+			row-gap: 32px;
+		}
+		&__card {
+			flex: 1 1 100%;
+		}
+		.cards {
+			&__item-media {
+				flex: 1 0 320px;
+			}
+		}
+	
+	}
+
+
+	.footer {
+		&__socials {
+			align-items: center;
+			flex-direction: column;
+			row-gap: 18px;
+		}
+
+		&__nav {
+			column-gap: 18px;
+			padding: 30px 0;
+		}
+
+		&__form {
+			row-gap: 10px;
+			flex-wrap: wrap;
+		}
+
+		&__form-title {
+			flex: 0 0 100%;
+			font-size: 18px;
+			text-align: center;
+		}
+
+		.socials {
+			column-gap: 25px;
+
+		}
+
+	}
+
+}
+
+
+
+
+@media (max-width: 479.98px) {
+
+
+	// Main
+
+	// _card
+	.title-block {
+		margin-bottom: 24px;
+	}
+
+	.view-all {
+		min-width: 80px;
+	}
+
+	// intro
+	.form {
+		row-gap: 5px;
+	
+		&__input {
+			max-width: 100%;
+			min-width: 100%;
+			&:first-child {
+				min-width: 100%;
+				max-width: 100%;
+			}
+		}
+	
+	}
+
+	.button-search {
+		padding: 20px;
+	}
+
+
+	// Popular
+	.popular {
+		&__cards {
+			gap: 9px;
+		}
+	
+		&__card {
+			flex: 1 1 100%;
+		}
+	}
+
+
+	// Footer
+	.footer {
+		padding: 30px 0;
+		&__socials {
+			flex-wrap: wrap;
+			row-gap: 10px;
+			justify-content: center;
+		}
+		&__nav {
+			flex-direction: column;
+			row-gap: 15px;
+			padding: 30px 0;
+		}
+		&__menu {
+			align-items: start;
+			&-list {
+				align-items: start;
+				width: 100%;
+			}
+			&-item {
+				width: 100%;
+			}
+		}
+
+		&__form {
+			row-gap: 10px;
+			flex-wrap: wrap;
+		}
+		&__form-title {
+			flex: 1 1 auto;
+		}
+		&__email {
+			flex: 1 1 auto;
+			flex-direction: column;
+			row-gap: 10px;
+		}
+		&__email-submit {
+			width: auto;
+			height: 50px;
+		}
+
+	}
+
+
+}

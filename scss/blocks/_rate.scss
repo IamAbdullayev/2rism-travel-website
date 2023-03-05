@@ -1,0 +1,25 @@
+$star-active: #FFA800;
+$star-inactive: #fff;
+$star-width: 15px;
+$star-hight: 15px;
+
+
+body > svg {
+	display: none;
+	visibility: hidden;
+	overflow: hidden;
+}
+
+.rate {
+
+	&__icon {
+		fill: $star-inactive;
+		stroke: $star-active;
+		width: $star-width;
+		height: $star-hight;
+
+		&--active {
+			fill: $star-active;
+		}
+	}
+}

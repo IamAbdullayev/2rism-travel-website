@@ -1,0 +1,38 @@
+.hotel {
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+	&__cards {
+		column-gap: 32px;
+	}
+
+	&__card {
+	}
+
+	.cards__item-media {
+		height: 380px;
+	}
+
+	.cards__item-text {
+		position: relative;
+
+		padding: 0 0 0 18px;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+
+			display: inline-block;
+			width: 12px;
+			height: 15px;
+			
+			background: url(../img/icon/location-small.svg);
+		}
+	}
+
+	.cards__item-body {
+		padding-top: 15px;
+	}
+}
